@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2503696422859A42000D87FB /* UIImageViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2503696322859A42000D87FB /* UIImageViewExt.swift */; };
+		25207150226F769500AB8114 /* ScoreLabelUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2520714F226F769500AB8114 /* ScoreLabelUpdater.swift */; };
 		258A7E28226E541900480227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258A7E27226E541900480227 /* AppDelegate.swift */; };
 		258A7E2A226E541900480227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258A7E29226E541900480227 /* ViewController.swift */; };
 		258A7E2D226E541900480227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258A7E2B226E541900480227 /* Main.storyboard */; };
 		258A7E2F226E541A00480227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258A7E2E226E541A00480227 /* Assets.xcassets */; };
 		258A7E32226E541A00480227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258A7E30226E541A00480227 /* LaunchScreen.storyboard */; };
+		258A7E3A226E722D00480227 /* CardGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258A7E39226E722D00480227 /* CardGenerator.swift */; };
+		25C261CB229438410083B760 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C261CA229438410083B760 /* MenuController.swift */; };
+		25FCD7C522834D07006F6A5B /* hipjazz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25FCD7C422834D07006F6A5B /* hipjazz.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2503696322859A42000D87FB /* UIImageViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExt.swift; sourceTree = "<group>"; };
+		2520714F226F769500AB8114 /* ScoreLabelUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreLabelUpdater.swift; sourceTree = "<group>"; };
 		258A7E24226E541900480227 /* CardWarGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWarGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		258A7E27226E541900480227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		258A7E29226E541900480227 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		258A7E2E226E541A00480227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		258A7E31226E541A00480227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		258A7E33226E541A00480227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		258A7E39226E722D00480227 /* CardGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGenerator.swift; sourceTree = "<group>"; };
+		25C261CA229438410083B760 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		25FCD7C422834D07006F6A5B /* hipjazz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hipjazz.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +65,14 @@
 			isa = PBXGroup;
 			children = (
 				258A7E27226E541900480227 /* AppDelegate.swift */,
+				25C261CA229438410083B760 /* MenuController.swift */,
+				2503696322859A42000D87FB /* UIImageViewExt.swift */,
+				258A7E39226E722D00480227 /* CardGenerator.swift */,
+				2520714F226F769500AB8114 /* ScoreLabelUpdater.swift */,
 				258A7E29226E541900480227 /* ViewController.swift */,
 				258A7E2B226E541900480227 /* Main.storyboard */,
 				258A7E2E226E541A00480227 /* Assets.xcassets */,
+				25FCD7C422834D07006F6A5B /* hipjazz.mp3 */,
 				258A7E30226E541A00480227 /* LaunchScreen.storyboard */,
 				258A7E33226E541A00480227 /* Info.plist */,
 			);
@@ -123,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				258A7E32226E541A00480227 /* LaunchScreen.storyboard in Resources */,
+				25FCD7C522834D07006F6A5B /* hipjazz.mp3 in Resources */,
 				258A7E2F226E541A00480227 /* Assets.xcassets in Resources */,
 				258A7E2D226E541900480227 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2503696422859A42000D87FB /* UIImageViewExt.swift in Sources */,
+				258A7E3A226E722D00480227 /* CardGenerator.swift in Sources */,
 				258A7E2A226E541900480227 /* ViewController.swift in Sources */,
 				258A7E28226E541900480227 /* AppDelegate.swift in Sources */,
+				25C261CB229438410083B760 /* MenuController.swift in Sources */,
+				25207150226F769500AB8114 /* ScoreLabelUpdater.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Harut.CardWarGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +330,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Harut.CardWarGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
